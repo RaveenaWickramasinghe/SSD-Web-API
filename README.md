@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# SSD_Web_Backend
+SSD Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Group Members :
+  IT19135830 | Goonawardena M.V.S 
+  IT19190808 | Weerasekara N.W.L.V.T 
+  IT19136134 | Kulatunga A.R 
+  IT19146652 | Wickramasinghe V.W.A.N.R
 
-## Available Scripts
+SCENARIO
 
-In the project directory, you can run:
+ABC Company is looking to create a custom web/mobile app to allow their staff to save messages or to upload files to a central server. The high-level functional requirements are given below.
+      • The proposed system is a client server system to be run over an unsecure network
+      • The client app will act as a simple interface which allows users to log in and provide
+        messages or files
+      • The server app will act as a database/data repository which allows the messages or     files to be stored
+      • The system should allow an administrator to create accounts for staff members – this can be hardcoded into system
+      • The staff can login to system using the username and password allocated to them
+      • The staff can be of two main roles
+          o Workers – can only save messages
+          o Managers – can save messages and upload files
+      • The system should be able to send the messages and files over an unsecure network (from
+      client to server) with the below security requirements
+          o Confidentiality
+          o Integrity
+          o Message authentication
+          o The client should be able to identify the server before any files are sent
 
-### `npm start`
+How to contribute
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Fork the project into your local GitHub profile.🍴 Clone that project into your computer.🚀 Assign a issue from the issue tab. - All the issues are the features of the API. Create new brach and called it with the respected feature or student id.🌱 For example: Issue - Create customer account Then you should name your brach like this. feature/student-account Brach name always should be simple letters. Do your modifications to the code.👨‍💻
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Commit changes to your local repository.💬
 
-### `npm test`
+Create a pull request to upstream repository.✋
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Before create the pull request, please chack if there are merge conflicts in your code. If there are not conflicts, then create the Pull Request(PR)
 
-### `npm run build`
+Then you have to assign one or more team members to review your code.👀
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+After reviewing process are done and your code is ready to merge, one of our organization member will merge your changes to the master branch.
